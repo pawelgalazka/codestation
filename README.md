@@ -1,2 +1,2 @@
 # codestation
-Simple guideline to setup development environment
+Simple guideline to setup node.js development environment
