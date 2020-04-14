@@ -48,5 +48,12 @@ git clone https://github.com/pawelgalazka/codestation.git
 echo "source ~/Projects/codestation/zsh.sh" >> ~/.zshrc
 ```
 
-13. Setup VSCode
+13. Load `codestation.terminal` profile
+  - open mac terminal
+  - select "Shell/Import..." from top menu
+  - select `~/Projects/codestation/codestation.terminal` file
+  - select "Terminal/Preferences" from top menu
+  - pick `codestation` profile and set it as default by clicking "Default" button
+
+14. Setup VSCode
 > https://code.visualstudio.com
