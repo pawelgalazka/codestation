@@ -1,5 +1,5 @@
 # codestation
-Simple guideline to setup node.js development environment
+*Simple guideline to setup node.js development environment*
 
 1. Turn firewall and FileVault (disk encryption)
 2. Install password manager (like 1password)
