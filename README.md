@@ -32,19 +32,21 @@ git config --global user.email "pawel.galazka1986@gmail.com"
 git config -l
 ```
 
-10. Setup terminal profile
-
-11. Install nvm
+10. Install nvm
 > https://github.com/nvm-sh/nvm
+
+11. Pick LTS node version
 ```
 nvm install --lts
 nvm use --lts
 ```
 
-12. Install yarn
-> https://yarnpkg.com
+12. Setup `codestation` files
+```
+mkdir ~/Projects && cd ~/Projects
+git clone https://github.com/pawelgalazka/codestation.git
+echo "source ~/Projects/codestation/zsh.sh" >> ~/.zshrc
+```
 
 13. Setup VSCode
 > https://code.visualstudio.com
-
-14. Setup dotfiles
