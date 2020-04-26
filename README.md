@@ -59,6 +59,9 @@ echo "source ~/Projects/codestation/zsh.sh" >> ~/.zshrc
 14. Setup VSCode
 > https://code.visualstudio.com
 
+> To setup `code` command. Press Cmd + Shift + P and then search for "shell command".
+> Pick option: "Shell Command: install code command in path"
+
 15. Link VSCode settings
 
 ```
