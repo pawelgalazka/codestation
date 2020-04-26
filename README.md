@@ -1,5 +1,5 @@
 # codestation
-Simple guideline to setup node.js development environment
+*Simple guideline to setup node.js development environment*
 
 1. Turn firewall and FileVault (disk encryption)
 2. Install password manager (like 1password)
@@ -32,19 +32,28 @@ git config --global user.email "pawel.galazka1986@gmail.com"
 git config -l
 ```
 
-10. Setup terminal profile
-
-11. Install nvm
+10. Install nvm
 > https://github.com/nvm-sh/nvm
+
+11. Pick LTS node version
 ```
 nvm install --lts
 nvm use --lts
 ```
 
-12. Install yarn
-> https://yarnpkg.com
+12. Setup `codestation` files
+```
+mkdir ~/Projects && cd ~/Projects
+git clone https://github.com/pawelgalazka/codestation.git
+echo "source ~/Projects/codestation/zsh.sh" >> ~/.zshrc
+```
 
-13. Setup VSCode
+13. Load `codestation.terminal` profile
+  - open mac terminal
+  - select "Shell/Import..." from top menu
+  - select and open `~/Projects/codestation/codestation.terminal` file
+  - select "Terminal/Preferences" from top menu
+  - pick `codestation` profile and set it as default by clicking "Default" button
+
+14. Setup VSCode
 > https://code.visualstudio.com
-
-14. Setup dotfiles
