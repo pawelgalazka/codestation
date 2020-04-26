@@ -64,3 +64,9 @@ echo "source ~/Projects/codestation/zsh.sh" >> ~/.zshrc
 ```
 ln -sf ~/Projects/codestation/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ```
+
+16. Install VSCode extensions
+
+```
+code --install-extension dbaeumer.vscode-eslint
+```
