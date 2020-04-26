@@ -69,4 +69,5 @@ ln -sf ~/Projects/codestation/vscode/settings.json ~/Library/Application\ Suppor
 
 ```
 code --install-extension dbaeumer.vscode-eslint
+code --install-extension esbenp.prettier-vscode
 ```
