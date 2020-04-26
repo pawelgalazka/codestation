@@ -29,7 +29,8 @@ brew install git
 ```
 git config --global user.name "Pawel Galazka"
 git config --global user.email "pawel.galazka1986@gmail.com"
-git config -l
+git config --global pull.rebase true
+git config --global -l
 ```
 
 10. Install nvm
