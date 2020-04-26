@@ -57,3 +57,9 @@ echo "source ~/Projects/codestation/zsh.sh" >> ~/.zshrc
 
 14. Setup VSCode
 > https://code.visualstudio.com
+
+15. Link VSCode settings
+
+```
+ln -sf ~/Projects/codestation/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+```
