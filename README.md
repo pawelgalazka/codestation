@@ -14,11 +14,12 @@ xcode-select —install
 5. Install HomeBrew
 > https://brew.sh
 
-6. Setup oh-my-zsh
-> https://github.com/ohmyzsh/ohmyzsh
+6. Setup Hyper terminal
+> https://hyper.is/
 
-7. Setup powerline fonts
-> https://github.com/powerline/fonts
+7. Setup terminal add-ons
+> https://github.com/sindresorhus/pure
+> https://github.com/sindresorhus/hyper-snazzy
 
 8. Install git through brew
 ```
@@ -28,7 +29,7 @@ brew install git
 9. Configure git
 ```
 git config --global user.name "Pawel Galazka"
-git config --global user.email "pawel.galazka1986@gmail.com"
+git config --global user.email "xxx@xxx.com"
 git config --global pull.rebase true
 git config --global -l
 ```
@@ -49,26 +50,19 @@ git clone https://github.com/pawelgalazka/codestation.git
 echo "source ~/Projects/codestation/zsh.sh" >> ~/.zshrc
 ```
 
-13. Load `codestation.terminal` profile
-  - open mac terminal
-  - select "Shell/Import..." from top menu
-  - select and open `~/Projects/codestation/codestation.terminal` file
-  - select "Terminal/Preferences" from top menu
-  - pick `codestation` profile and set it as default by clicking "Default" button
-
-14. Setup VSCode
+13. Setup VSCode
 > https://code.visualstudio.com
 
 > To setup `code` command. Press Cmd + Shift + P and then search for "shell command".
 > Pick option: "Shell Command: install code command in path"
 
-15. Link VSCode settings
+14. Link VSCode settings
 
 ```
 ln -sf ~/Projects/codestation/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ```
 
-16. Install VSCode extensions
+15. Install VSCode extensions
 
 ```
 code --install-extension dbaeumer.vscode-eslint
