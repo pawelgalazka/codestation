@@ -13,16 +13,7 @@ alias gb="git branch"
 alias gl="git log"
 alias p="cd $HOME/Projects"
  
-# ZSH adjustments
-prompt_context() {
-  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
-  fi
-}
 
-ZSH_THEME="agnoster"
-
-plugins=(
-  git
-  nvm
-)
+# https://github.com/sindresorhus/pure
+autoload -U promptinit; promptinit
+prompt pure
